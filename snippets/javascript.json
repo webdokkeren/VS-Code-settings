@@ -22,6 +22,30 @@
 		"description": "Insert use strict statement"
 	},
 
+    "Console log": {
+        "prefix": "cl",
+        "body": [
+            "console.log($1)$0"
+        ],
+        "console.log statement"
+    },
+
+    "Console warn": {
+        "prefix": "cw",
+        "body": [
+            "console.warn($1)$0"
+        ],
+        "console.warn statement"
+    },
+
+    "Console Error": {
+        "prefix": "ce",
+        "body": [
+            "console.error($1)$0"
+        ],
+        "console.error statement"
+    },
+
     /** Gulp Snippets, ES6 style */
 
     "Gulp task": {

@@ -1,0 +1,30 @@
+{
+	 // Place your snippets for TypeScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Console log": {
+        "prefix": "cl",
+        "body": [
+            "console.log($1)$0"
+        ],
+        "console.log statement"
+    },
+
+    "Console warn": {
+        "prefix": "cw",
+        "body": [
+            "console.warn($1)$0"
+        ],
+        "console.warn statement"
+    },
+
+    "Console Error": {
+        "prefix": "ce",
+        "body": [
+            "console.error($1)$0"
+        ],
+        "console.error statement"
+    }
+
+}
