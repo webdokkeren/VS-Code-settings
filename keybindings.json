@@ -8,5 +8,6 @@
     // Remap original key that would otherwise conflict
     { "key": "alt+down", "command": "cursorDownSelect", "when": "editorTextFocus" },
     { "key": "alt+up", "command": "cursorUpSelect", "when": "editorTextFocus" },
+    { "key": "ctrl+alt+c", "command": "editor.action.commentLine", "when": "editorTextFocus" },
 	{ "key": "shift+alt+down", "command": "workbench.view.debug" }
 ]
