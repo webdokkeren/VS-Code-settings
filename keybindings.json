@@ -1,0 +1,12 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	// Map new key
+	{ "key": "ctrl+shift+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus" },
+	{ "key": "ctrl+shift+down", "command": "editor.action.moveLinesDownAction", "when": "editorTextFocus" },
+	{ "key": "ctrl+shift+up", "command": "editor.action.moveLinesUpAction", "when": "editorTextFocus" },
+
+    // Remap original key that would otherwise conflict
+    { "key": "alt+down", "command": "cursorDownSelect", "when": "editorTextFocus" },
+    { "key": "alt+up", "command": "cursorUpSelect", "when": "editorTextFocus" },
+	{ "key": "shift+alt+down", "command": "workbench.view.debug" }
+]

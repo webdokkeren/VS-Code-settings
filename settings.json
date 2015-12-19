@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+{
+	// Configure glob patterns for excluding files and folders.
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true
+	},
+
+	// Controls the font size.
+	"editor.fontSize": 14,
+
+	// Controls the font family.
+	"editor.fontFamily": "Hack, monospace",
+
+		//-------- Search configuration --------
+
+	// Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the file.exclude setting.
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/typings": true,
+		"**/bower_components": true
+	},
+
+	// When enabled, will trim trailing whitespace when you save a file.
+	"files.trimTrailingWhitespace": true
+}
