@@ -25,7 +25,7 @@
     "Console log": {
         "prefix": "log",
         "body": [
-            "console.log($1)$0"
+            "console.log($1);$0"
         ],
         "console.log statement"
     },
@@ -33,7 +33,7 @@
     "Console warn": {
         "prefix": "logw",
         "body": [
-            "console.warn($1)$0"
+            "console.warn($1);$0"
         ],
         "console.warn statement"
     },
@@ -41,7 +41,7 @@
     "Console Error": {
         "prefix": "loge",
         "body": [
-            "console.error($1)$0"
+            "console.error($1);$0"
         ],
         "console.error statement"
     },
