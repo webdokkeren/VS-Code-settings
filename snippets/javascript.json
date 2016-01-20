@@ -23,25 +23,25 @@
 	},
 
     "Console log": {
-        "prefix": "cl",
+        "prefix": "log",
         "body": [
-            "console.log($1)$0"
+            "console.log($1);$0"
         ],
         "console.log statement"
     },
 
     "Console warn": {
-        "prefix": "cw",
+        "prefix": "logw",
         "body": [
-            "console.warn($1)$0"
+            "console.warn($1);$0"
         ],
         "console.warn statement"
     },
 
     "Console Error": {
-        "prefix": "ce",
+        "prefix": "loge",
         "body": [
-            "console.error($1)$0"
+            "console.error($1);$0"
         ],
         "console.error statement"
     },
