@@ -9,6 +9,11 @@
 	// Controls the font size.
 	"editor.fontSize": 14,
 
+    // Controls VSCode's JavaScript validation. If set to false both syntax and semantic validation is disabled
+	"javascript.validate.enable": false,
+
+    "eslint.enable": true,
+
 	// Controls the font family.
 	"editor.fontFamily": "Hack, monospace",
 

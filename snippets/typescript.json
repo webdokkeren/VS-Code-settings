@@ -4,9 +4,9 @@
 	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
 	 // Example:
 	 "Console log": {
-        "prefix": "cl",
+        "prefix": "log",
         "body": [
-            "console.log($1)$0"
+            "console.log($1);"
         ],
         "console.log statement"
     },
@@ -14,7 +14,7 @@
     "Console warn": {
         "prefix": "cw",
         "body": [
-            "console.warn($1)$0"
+            "console.warn($1);"
         ],
         "console.warn statement"
     },
@@ -22,17 +22,50 @@
     "Console Error": {
         "prefix": "ce",
         "body": [
-            "console.error($1)$0"
+            "console.error($1);"
         ],
         "console.error statement"
     },
 
-    "Angular2 component": {
+    "Angular2 import": {
         "prefix": "angc",
         "body": [
-            "import {$1} from '$0'"
+            "import {$1} from '$0';"
         ],
-        "console.error statement"
+        "create import statement"
+    },
+
+    "Angular2 import core": {
+        "prefix": "ac",
+        "body": [
+            "import {Component} from 'angular2/core';"
+        ],
+        "create angular2 core import statement"
+    },
+
+    "Angular Component annotation": {
+        "prefix": "anc",
+        "body": [
+            "@Component({",
+            "   $0",
+            "})",
+        ],
+        "create angular2 component annotation"
+    },
+
+    "Export interface statement": {
+        "prefix": "ei",
+        "body": [
+            "export interface $1 {$0}"
+        ]
+    },
+
+    "Export class statement": {
+        "prefix": "ec",
+        "body": [
+            "export class $1 {$0}"
+        ]
     }
+
 
 }

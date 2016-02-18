@@ -15,6 +15,6 @@
 	{ "key": "ctrl+shift+x", "command": "workbench.action.tasks.terminate" }, //Overrides: editor.action.trimTrailingWhitespace", "when": "editorTextFocus
 	{ "key": "ctrl+shift+x", "command": "workbench.action.tasks.terminate" }, //Overrides: editor.action.trimTrailingWhitespace", "when": "editorTextFocus
 	{ "key": "ctrl+l", "command": "workbench.action.editor.changeLanguageMode" } //Overrides: workbench.action.editor.changeLanguageMode
-
+    { "key": "shift+delete",          "command": "editor.action.deleteLines" },
 
 ]
